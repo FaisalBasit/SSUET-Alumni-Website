@@ -1,0 +1,397 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Login.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Login.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\111.png",
+      "PackagePath": "staticwebassets\\Images\\111.png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\2121.jpg",
+      "PackagePath": "staticwebassets\\Images\\2121.jpg"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\23.jpg",
+      "PackagePath": "staticwebassets\\Images\\23.jpg"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\AG-03-03-03.png",
+      "PackagePath": "staticwebassets\\Images\\AG-03-03-03.png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\AG-03-03.png",
+      "PackagePath": "staticwebassets\\Images\\AG-03-03.png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\AG-03.png",
+      "PackagePath": "staticwebassets\\Images\\AG-03.png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\AG1-03.png",
+      "PackagePath": "staticwebassets\\Images\\AG1-03.png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\Awards pic.jpg",
+      "PackagePath": "staticwebassets\\Images\\Awards pic.jpg"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\Chemistry_Lab.jpg",
+      "PackagePath": "staticwebassets\\Images\\Chemistry_Lab.jpg"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\G-01.png",
+      "PackagePath": "staticwebassets\\Images\\G-01.png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\G-02.png",
+      "PackagePath": "staticwebassets\\Images\\G-02.png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\G1.png",
+      "PackagePath": "staticwebassets\\Images\\G1.png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\G2.png",
+      "PackagePath": "staticwebassets\\Images\\G2.png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\G3.jpg",
+      "PackagePath": "staticwebassets\\Images\\G3.jpg"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\G3.png",
+      "PackagePath": "staticwebassets\\Images\\G3.png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\G4-03.png",
+      "PackagePath": "staticwebassets\\Images\\G4-03.png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\G5-04.png",
+      "PackagePath": "staticwebassets\\Images\\G5-04.png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\G6-05.png",
+      "PackagePath": "staticwebassets\\Images\\G6-05.png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\QUADNEWS-01.png",
+      "PackagePath": "staticwebassets\\Images\\QUADNEWS-01.png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\Raft.png",
+      "PackagePath": "staticwebassets\\Images\\Raft.png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\a1.jpg",
+      "PackagePath": "staticwebassets\\Images\\a1.jpg"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\a2.jpg",
+      "PackagePath": "staticwebassets\\Images\\a2.jpg"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\a3.jpg",
+      "PackagePath": "staticwebassets\\Images\\a3.jpg"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\a4.jpg",
+      "PackagePath": "staticwebassets\\Images\\a4.jpg"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\a5.jpg",
+      "PackagePath": "staticwebassets\\Images\\a5.jpg"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\a6.jpg",
+      "PackagePath": "staticwebassets\\Images\\a6.jpg"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\a7.jpg",
+      "PackagePath": "staticwebassets\\Images\\a7.jpg"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\a8.jpg",
+      "PackagePath": "staticwebassets\\Images\\a8.jpg"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\ai.jpg",
+      "PackagePath": "staticwebassets\\Images\\ai.jpg"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\at.png",
+      "PackagePath": "staticwebassets\\Images\\at.png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\authenticity.png",
+      "PackagePath": "staticwebassets\\Images\\authenticity.png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\b.jpg",
+      "PackagePath": "staticwebassets\\Images\\b.jpg"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\calendar.png",
+      "PackagePath": "staticwebassets\\Images\\calendar.png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\coach (1).png",
+      "PackagePath": "staticwebassets\\Images\\coach (1).png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\coach.png",
+      "PackagePath": "staticwebassets\\Images\\coach.png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\dinner (1).png",
+      "PackagePath": "staticwebassets\\Images\\dinner (1).png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\dinner.png",
+      "PackagePath": "staticwebassets\\Images\\dinner.png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\e1.jpg",
+      "PackagePath": "staticwebassets\\Images\\e1.jpg"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\education.png",
+      "PackagePath": "staticwebassets\\Images\\education.png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\ee.png",
+      "PackagePath": "staticwebassets\\Images\\ee.png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\events-02.png",
+      "PackagePath": "staticwebassets\\Images\\events-02.png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\events2-02.png",
+      "PackagePath": "staticwebassets\\Images\\events2-02.png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\f3-01.png",
+      "PackagePath": "staticwebassets\\Images\\f3-01.png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\f4-01.png",
+      "PackagePath": "staticwebassets\\Images\\f4-01.png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\f5-01.png",
+      "PackagePath": "staticwebassets\\Images\\f5-01.png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\facebook.png",
+      "PackagePath": "staticwebassets\\Images\\facebook.png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\gift.png",
+      "PackagePath": "staticwebassets\\Images\\gift.png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\id-card.png",
+      "PackagePath": "staticwebassets\\Images\\id-card.png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\inn.jpg",
+      "PackagePath": "staticwebassets\\Images\\inn.jpg"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\instagram.png",
+      "PackagePath": "staticwebassets\\Images\\instagram.png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\lab2.jpg",
+      "PackagePath": "staticwebassets\\Images\\lab2.jpg"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\labb",
+      "PackagePath": "staticwebassets\\Images"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\linkedin.png",
+      "PackagePath": "staticwebassets\\Images\\linkedin.png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\logout.png",
+      "PackagePath": "staticwebassets\\Images\\logout.png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\meet.png",
+      "PackagePath": "staticwebassets\\Images\\meet.png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\mhd.png",
+      "PackagePath": "staticwebassets\\Images\\mhd.png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\newspaper-folded.png",
+      "PackagePath": "staticwebassets\\Images\\newspaper-folded.png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\newww-05-05.png",
+      "PackagePath": "staticwebassets\\Images\\newww-05-05.png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\newww-05.png",
+      "PackagePath": "staticwebassets\\Images\\newww-05.png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\people.png",
+      "PackagePath": "staticwebassets\\Images\\people.png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\poster-01.png",
+      "PackagePath": "staticwebassets\\Images\\poster-01.png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\q.png",
+      "PackagePath": "staticwebassets\\Images\\q.png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\r1.jpg",
+      "PackagePath": "staticwebassets\\Images\\r1.jpg"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\r2.jpg",
+      "PackagePath": "staticwebassets\\Images\\r2.jpg"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\rr.jpg",
+      "PackagePath": "staticwebassets\\Images\\rr.jpg"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\se (1).png",
+      "PackagePath": "staticwebassets\\Images\\se (1).png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\se.png",
+      "PackagePath": "staticwebassets\\Images\\se.png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\smec.jpg",
+      "PackagePath": "staticwebassets\\Images\\smec.jpg"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\twitter.png",
+      "PackagePath": "staticwebassets\\Images\\twitter.png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\university.png",
+      "PackagePath": "staticwebassets\\Images\\university.png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\v1.png",
+      "PackagePath": "staticwebassets\\Images\\v1.png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\v2.png",
+      "PackagePath": "staticwebassets\\Images\\v2.png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\vc.png",
+      "PackagePath": "staticwebassets\\Images\\vc.png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\vc1.png",
+      "PackagePath": "staticwebassets\\Images\\vc1.png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\ww.png",
+      "PackagePath": "staticwebassets\\Images\\ww.png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\Images\\youtube.png",
+      "PackagePath": "staticwebassets\\Images\\youtube.png"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\SSUET Alumni\\Login.html",
+      "PackagePath": "staticwebassets\\SSUET Alumni\\Login.html"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\SSUET Alumni\\engage.html",
+      "PackagePath": "staticwebassets\\SSUET Alumni\\engage.html"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\SSUET Alumni\\events.html",
+      "PackagePath": "staticwebassets\\SSUET Alumni\\events.html"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\SSUET Alumni\\groups.html",
+      "PackagePath": "staticwebassets\\SSUET Alumni\\groups.html"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\SSUET Alumni\\index.html",
+      "PackagePath": "staticwebassets\\SSUET Alumni\\index.html"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\SSUET Alumni\\my_ssuet.html",
+      "PackagePath": "staticwebassets\\SSUET Alumni\\my_ssuet.html"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\SSUET Alumni\\new_alumni.html",
+      "PackagePath": "staticwebassets\\SSUET Alumni\\new_alumni.html"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\SSUET Alumni\\news.html",
+      "PackagePath": "staticwebassets\\SSUET Alumni\\news.html"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\css\\register.css",
+      "PackagePath": "staticwebassets\\css\\register.css"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\ico-02.ico",
+      "PackagePath": "staticwebassets\\ico-02.ico"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\javascript\\package-lock.json",
+      "PackagePath": "staticwebassets\\javascript\\package-lock.json"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\javascript\\package.json",
+      "PackagePath": "staticwebassets\\javascript\\package.json"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\javascript\\script.js",
+      "PackagePath": "staticwebassets\\javascript\\script.js"
+    },
+    {
+      "Id": "D:\\Sir Syed University\\5th Semester\\Web Eng lab\\Web Engr Project\\Login\\Login\\wwwroot\\javascript\\swiper-init.js",
+      "PackagePath": "staticwebassets\\javascript\\swiper-init.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Login.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Login.props",
+      "PackagePath": "build\\Login.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Login.props",
+      "PackagePath": "buildMultiTargeting\\Login.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Login.props",
+      "PackagePath": "buildTransitive\\Login.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

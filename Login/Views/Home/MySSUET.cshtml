@@ -1,0 +1,233 @@
+﻿@page
+@model Login.Views.Home.MySSUETModel
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <!-- Top Navbar Section -->
+        <div id="top" class="top-navbar">
+            <div class="social-links">
+                <a href="https://www.linkedin.com/school/ssuetofficial/posts/?feedView=all" target="_blank"><img src="/Images/linkedin.png" alt="LinkedIn"></a>
+                <a href="https://twitter.com/SSUET_Official/status/1760228797591208388" target="_blank"><img src="/Images/twitter.png" alt="Twitter"></a>
+                <a href="https://www.facebook.com/ssuetians/" target="_blank"><img src="/Images/facebook.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/sirsyeduniversityofficial/?hl=en" target="_blank"><img src="/Images/instagram.png" alt="Instagram"></a>
+            </div>
+            <div class="top-links">
+                <a href="@Url.Action("Login", "Home")" class="desktop-link">My SSUET Online Log-in</a>
+                <a href="@Url.Action("Login", "Home")" class="mobile-link">Log-in</a>
+                <a href="#">FAQ</a>
+                <a href="https://www.ssuet.edu.pk/">ssuet.edu.pk</a>
+                <a asp-controller="Home" asp-action="Logout"><img src="/Images/logout.png" alt="Log Out"></a>
+            </div>
+        </div>
+
+        <!-- Main Navbar Section -->
+        <div class="main-navbar">
+            <div class="logo">
+                <a href="@Url.Action("Index", "Home")"><img src="/Images/f3-01.png" alt="SSUET Logo"></a>
+            </div>
+            <!-- Search Bar and Hamburger Menu -->
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+                <div class="hamburger" onclick="toggleMenu()">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a href=@Url.Action("News", "Home")>Quad News</a></li>
+                <li><a href="@Url.Action("MySSUET", "Home")">My SSUET</a></li>
+                <li><a href="@Url.Action("NewAlumni", "Home")">New Alumni</a></li>
+                <li><a href="@Url.Action("Events", "Home")">Events</a></li>
+                <li><a href="@Url.Action("AlumniGroup", "Home")">Alumni Groups</a></li>
+                <li><a href="@Url.Action("Engage", "Home")">Engage</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div>
+        <div>
+            <h1>About</h1>
+        </div>
+    </div>
+    <section class="header-section-myssuet">
+        <div class="et_pb_fullwidth_header_container-myssuet left">
+            <div class="header-content-container-myssuet center">
+                <div class="header-content-myssuet">
+                    <h1 class="et_pb_module_header-myssuet">About The</h1>
+                    <span class="et_pb_fullwidth_header_subhead-myssuet">Sir Syed University of Engineering and Technology</span>
+                    <div class="et_pb_header_content_wrapper-myssuet">
+                        <p>National rankings, environmentally friendly and state-of-the-art facilities, growing reputation for excellence in teaching, and affordable cost of education are some of the glaring attractions of SSUET. Its hallmark includes the curricula emphasizing research, air-conditioned classrooms and labs meeting international standards, sports facilities, symposiums, and seminars, Continuing Education Programs, strict adherence to Teaching Schedules, sound interaction between Industry and Academia, ongoing research projects, and above all the Career Planning &amp; Placement Bureau, which helps find jobs for alumni.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="inspiration-myssuet">
+        <div class="inspiration-text-myssuet">
+            <h2>Inspiration</h2>
+            <p>
+                Sir Syed University of Engineering &amp; Technology is spiritually associated to Aligarh Muslim University, Aligarh, India. The role of Muslim University Aligarh, in the process of uplift and well
+                being of the Muslims of the subcontinent, stands in bold relief in the annals of history. The domain of working of this university was not confined to teaching of some subjects or dissemination
+                of knowledge; it rather transcended these spheres and encompassed the building of character and development of personality of the students along with academics.
+            </p>
+            <p>
+                This university works in accordance with a philosophy that was the driving force for Aligarh Movement. This philosophy was Initiated by Sir Syed Ahmad Khan and developed by relentless work by his
+                associates and followers. The Movement was remarkably universal and abiding in its appeal and applicability.
+            </p>
+            <p>
+                Its essence was education as the prime mover of modernization, progress, and development. It put great emphasis on keeping intact the community’s own distinctive cultural identity and base. The Movement
+                gave equal importance to character building along with scholastic instruction.
+            </p>
+            <p>
+                The real outcome of the Aligarh movement was the Aligarh Spirit, which was being inculcated in every student, through the special pedagogy and instructional methods, during studies at the Muslim
+                University and this spirit distinguished its students. The alumni of the Muslim University, with Aligarh spirit as their characteristic, played a distinctive role in whatever position they happened
+                to have in the practical life, after education. Every student even after education at Aligarh derived, from the Aligarh Spirit, the zeal and enthusiasm for doing formidable tasks and materializing
+                great ideas.
+            </p>
+        </div>
+        <div class="inspiration-image-myssuet">
+            <img src="https://www.ssuet.edu.pk/wp-content/uploads/Role-Of-Sir-Syed-Ahmed-Khan.webp" alt="Inspiration Image">
+        </div>
+    </section>
+    <section class="images-myssuet">
+        <div class="image-myssuet">
+            <img src="/Images/v1.png" alt="Vision Image">
+
+        </div>
+        <div class="image-myssuet">
+            <img src="/Images/v2.png" alt="Mission Image">
+
+        </div>
+    </section>
+    <section class="vision-mission-myssuet">
+        <div class="vision-myssuet">
+            <h2>Our Vision</h2>
+            <p>To make SSUET a leading innovation provider in education and research with a focus on realizing positive economic impact, entrepreneurial mindset, and a sense of social responsibility as envisioned by Sir Syed Ahmed Khan.</p>
+        </div>
+        <div class="mission-myssuet">
+            <h2>Our Mission</h2>
+            <p>To provide an enabling environment to all stakeholders of SSUET in the pursuit of technological and socio-economic development, for the achievement of long-term societal benefits through innovation, research, commercialization, and sharing of knowledge imbued with a sense of social and moral responsibility aligned with the Aligarh spirit.</p>
+        </div>
+    </section>
+
+
+
+
+    <section class="chancellors-section-myssuet">
+        <div class="chancellors-container-myssuet">
+            <div class="chancellor-card-myssuet">
+                <div class="chancellor-info-myssuet">
+                    <div class="chancellor-image-wrapper-myssuet">
+                        <img src="https://www.ssuet.edu.pk/wp-content/uploads/Jawed-Anwar-SSUET.webp" alt="Chancellor Mr Jawaid Anwar" class="chancellor-image-myssuet" />
+                    </div>
+                    <div class="chancellor-details-myssuet">
+                        <h6 class="chancellor-name-myssuet">Chancellor - Mr. Jawaid Anwar</h6>
+                        <p class="chancellor-position-myssuet">President Aligarh Muslim University Old Boys’ Association of Pakistan</p>
+                    </div>
+                </div>
+                <div class="chancellor-message-myssuet">
+                    <p class="read-message-myssuet">Read Message</p>
+                </div>
+            </div>
+
+            <div class="chancellor-card-myssuet">
+                <div class="chancellor-info-myssuet">
+                    <div class="chancellor-image-wrapper-myssuet">
+                        <img src="https://www.ssuet.edu.pk/wp-content/uploads/Act.-Vice-Chancellor.webp" alt="Act. Vice Chancellor" class="chancellor-image-myssuet" />
+                    </div>
+                    <div class="chancellor-details-myssuet">
+                        <h6 class="chancellor-name-myssuet">Act. Vice Chancellor - Dr. Munawwar Hussain</h6>
+                        <p class="chancellor-position-myssuet">Sir Syed University of Engineering and Technology</p>
+                    </div>
+                </div>
+                <div class="chancellor-message-myssuet">
+                    <p class="read-message-myssuet">Read Message</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="previous-chancellors-section-myssuet">
+        <div class="section-title-myssuet">
+            <p><strong>Previous</strong> Chancellors</p>
+        </div>
+
+        <div class="previous-chancellors-container-myssuet">
+            <div class="chancellor-card-myssuet">
+                <div class="chancellor-info-myssuet">
+                    <div class="chancellor-image-wrapper-myssuet">
+                        <img src="https://www.ssuet.edu.pk/wp-content/uploads/Engr.-Z.A.-Nizami.webp" alt="Engr. Z.A. Nizami" class="chancellor-image" />
+                    </div>
+                    <div class="chancellor-details-myssuet">
+                        <h6 class="chancellor-name-myssuet">Engr. Z.A. Nizami</h6>
+                        <p class="chancellor-tenure-myssuet">Tenure: 08-10-1993 ~ 06-01-2013</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="chancellor-card-myssuet">
+                <div class="chancellor-info-myssuet">
+                    <div class="chancellor-image-wrapper-myssuet">
+                        <img src="https://www.ssuet.edu.pk/wp-content/uploads/Adil-Usman.webp" alt="Engr. Muhammad Adil Usman" class="chancellor-image" />
+                    </div>
+                    <div class="chancellor-details-myssuet">
+                        <h6 class="chancellor-name-myssuet">Engr. Muhammad Adil Usman</h6>
+                        <p class="chancellor-tenure-myssuet">Tenure: 07-04-2013 ~ 31-10-2015</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-about">
+                <h4>About SSUET Alumni</h4>
+                <p>A platform to connect, collaborate, and celebrate the achievements of Sir Syed University of Engineering and Technology alumni.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#membership">Membership</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-alumni">
+                <h4>Information for Alumni</h4>
+                <ul>
+                    <li><a href="#login">Login/Register</a></li>
+                    <li><a href="#eligibility">Eligibility</a></li>
+                    <li><a href="#update-details">Update Your Details</a></li>
+                    <li><a href="#certificates">Degree Certificates and Ceremonies</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p>Email: <a href="mailto:alumni@ssuet.edu.pk">alumni@ssuet.edu.pk</a></p>
+                <p>Phone: +92-21-12345678</p>
+                <p>Address: Sir Syed University, Karachi, Pakistan</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 SSUET Alumni. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="~/Scripts/script.js"></script>
+</body>
+</html>
+

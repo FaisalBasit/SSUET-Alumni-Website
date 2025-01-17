@@ -1,0 +1,185 @@
+﻿@{
+   /*  Layout = "~/Views/Shared/_Layout.cshtml";  */// Adjust as per your project structure
+    ViewData["Title"] = "Engage";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sintony:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <!-- Top Navbar Section -->
+        <div id="top" class="top-navbar">
+            <div class="social-links">
+                <a href="https://www.linkedin.com/school/ssuetofficial/posts/?feedView=all" target="_blank"><img src="/Images/linkedin.png" alt="LinkedIn"></a>
+                <a href="https://twitter.com/SSUET_Official/status/1760228797591208388" target="_blank"><img src="/Images/twitter.png" alt="Twitter"></a>
+                <a href="https://www.facebook.com/ssuetians/" target="_blank"><img src="/Images/facebook.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/sirsyeduniversityofficial/?hl=en" target="_blank"><img src="/Images/instagram.png" alt="Instagram"></a>
+            </div>
+            <div class="top-links">
+                <a href="@Url.Action("Login", "Home")" class="desktop-link">My SSUET Online Log-in</a>
+                <a href="@Url.Action("Login", "Home")" class="mobile-link">Log-in</a>
+                <a href="#">FAQ</a>
+                <a href="https://www.ssuet.edu.pk/">ssuet.edu.pk</a>
+                <a asp-controller="Home" asp-action="Logout"><img src="/Images/logout.png" alt="Log Out"></a>
+            </div>
+        </div>
+
+        <!-- Main Navbar Section -->
+        <div class="main-navbar">
+            <div class="logo">
+                <a href="@Url.Action("Index", "Home")"><img src="/Images/f3-01.png" alt="SSUET Logo"></a>
+            </div>
+            <!-- Search Bar and Hamburger Menu -->
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+                <div class="hamburger" onclick="toggleMenu()">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a href=@Url.Action("News", "Home")>Quad News</a></li>
+                <li><a href="@Url.Action("MySSUET", "Home")">My SSUET</a></li>
+                <li><a href="@Url.Action("NewAlumni", "Home")">New Alumni</a></li>
+                <li><a href="@Url.Action("Events", "Home")">Events</a></li>
+                <li><a href="@Url.Action("AlumniGroup", "Home")">Alumni Groups</a></li>
+                <li><a href="@Url.Action("Engage", "Home")">Engage</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="engage">
+        <div class="engage-container">
+            <h1 class="engage-title">Notable Alumni & Distinguished Friends</h1>
+            <p class="engage-intro">Discover our inspiring alumni who have made significant contributions in their respective fields, from groundbreaking innovations to leadership in top organizations. Their diverse experiences and achievements serve as a testament to the value of education and perseverance. <br />Connect with them on LinkedIn to engage, learn from their journeys, and grow your own professional network. </p>
+
+            <div class="alumni-grid">
+                <!-- Card 1 -->
+                <div class="alumni-card">
+                    <img src="/Images/a1.jpg" alt="Alumni Name 1">
+                    <h2>
+                        Kamran Javaid
+                    </h2>
+                    <p class="job-title"><b>Senior Business Data Analyst at Saudi Aramco</b></p>
+                    <p class="department">Computer Science <br/> Department</p>
+                    <p class="batch-year">1998 Batch</p>
+                    <a href="https://www.linkedin.com/in/skamranj/" class="linkedin-button" target="_blank">Connect on LinkedIn</a>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="alumni-card">
+                    <img src="~/Images/a2.jpg" alt="Alumni Name 2">
+                    <h2>Shahbaz Javaid</h2>
+                    <p class="job-title"><b>Lead Business Systems Analyst at Saudi Aramco</b></p>
+                    <p class="department">Computer Engineering Department</p>
+                    <p class="batch-year">1996 Batch</p>
+                  
+                    <a href="https://www.linkedin.com/in/mshahbaz77/" class="linkedin-button" target="_blank">Connect on LinkedIn</a>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="alumni-card">
+                    <img src="/Images/a3.jpg" alt="Alumni Name 3">
+                    <h2>Yasir Kamal</h2>
+                    <p class ="job-title"><b>Group Category Manager at Almarai - المراعي</b></p>
+                    <p class="department">Computer Engineering Department</p>
+                    <p class="batch-year">2002 Batch</p>
+                    <a href="https://www.linkedin.com/in/yasir-kamal-a2565120/" class="linkedin-button" target="_blank">Connect on LinkedIn</a>
+                </div>
+
+                <!-- Card 1 -->
+                <div class="alumni-card">
+                    <img src="/Images/a4.jpg" alt="">
+                    <h2>Fahad Siddique </h2>
+                    <p class="job-title"><b>Senior Security Architect at NVIDIA</b></p>
+                    <p class="department">Electronics Engineering Department</p>
+                    <p class="batch-year">2003 Batch</p>
+                    <a href="https://www.linkedin.com/in/fmsiddiqui/" class="linkedin-button" target="_blank">Connect on LinkedIn</a>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="alumni-card">
+                    <img src="/Images/a5.jpg" alt="Alumni Name 2">
+                    <h2>Khuram Khan</h2>
+                    <p class="job-title"><b>Senior Software Engineer at Microsoft </b></p>
+                    <p class="department">Computer Engineering Department</p>
+                    <p class="batch-year">2000 Batch</p>
+                    <a href="https://www.linkedin.com/in/khuram/" class="linkedin-button" target="_blank">Connect on LinkedIn</a>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="alumni-card">
+                    <img src="/Images/a6.jpg" alt="Alumni Name 3">
+                    <h2>Affan Abbasi</h2>
+                    <p class="job-title"><b>Design Technology Tool Enablement Engineer at intel</b></p>
+                    <p class="department">Electronics Engineering Department</p>
+                    <p class="batch-year">2004 Batch</p>
+                    <a href="https://www.linkedin.com/in/affanabbasi/" class="linkedin-button" target="_blank">Connect on LinkedIn</a>
+                </div>
+                <!-- Card 1 -->
+                <div class="alumni-card">
+                    <img src="/Images/a7.jpg" alt="Alumni Name 1">
+                    <h2>Ali Zaidi </h2>
+                    <p class="job-title"><b>Senior Solutions Architect at Google</b></p>
+                    <p class="department">Electronics Engineering Department</p>
+                    <p class="batch-year">2005 Batch</p>
+                    <a href="https://www.linkedin.com/in/alizaidis/" class="linkedin-button" target="_blank">Connect on LinkedIn</a>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="alumni-card">
+                    <img src="/Images/a8.jpg" alt="Alumni Name 2">
+                    <h2>Junaid Ansari </h2>
+                    <p class="job-title"><b>Printed Circuit Board Designer at Apple</b></p>
+                    <p class="department">Electronics Engineering Department</p>
+                    <p class="batch-year">2001 Batch</p>
+                    <a href="https://www.linkedin.com/in/junaid08/" class="linkedin-button" target="_blank">Connect on LinkedIn</a>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-about">
+                <h4>About SSUET Alumni</h4>
+                <p>A platform to connect, collaborate, and celebrate SSUET alumni.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#membership">Membership</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p>Email: <a href="mailto:alumni@ssuet.edu.pk">alumni@ssuet.edu.pk</a></p>
+                <p>Phone: +92-21-12345678</p>
+                <p>Address: SSUET, Karachi, Pakistan</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; @DateTime.Now.Year SSUET Alumni. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/javascript/script.js"></script>
+</body>
+</html>

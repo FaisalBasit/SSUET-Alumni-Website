@@ -1,0 +1,198 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml"; // Replace with your actual layout path if different
+    ViewData["Title"] = "News";
+}
+<link href="https://fonts.googleapis.com/css2?family=Sintony:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+<link rel="stylesheet" href="~/css/styles.css">
+
+<nav id="navbar">
+    <!-- Top Navbar Section -->
+    <div id="top" class="top-navbar">
+        <div class="social-links">
+            <a href="https://www.linkedin.com/school/ssuetofficial/posts/?feedView=all" target="_blank"><img src="/Images/linkedin.png" alt="LinkedIn"></a>
+            <a href="https://twitter.com/SSUET_Official/status/1760228797591208388" target="_blank"><img src="/Images/twitter.png" alt="Twitter"></a>
+            <a href="https://www.facebook.com/ssuetians/" target="_blank"><img src="/Images/facebook.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/sirsyeduniversityofficial/?hl=en" target="_blank"><img src="/Images/instagram.png" alt="Instagram"></a>
+        </div>
+        <div class="top-links">
+            <a href="@Url.Action("Login", "Home")" class="desktop-link">My SSUET Online Log-in</a>
+            <a href="@Url.Action("Login", "Home")" class="mobile-link">Log-in</a>
+            <a href="#">FAQ</a>
+            <a href="https://www.ssuet.edu.pk/">ssuet.edu.pk</a>
+            <a asp-controller="Home" asp-action="Logout"><img src="/Images/logout.png" alt="Log Out"></a>
+        </div>
+    </div>
+
+    <!-- Main Navbar Section -->
+    <div class="main-navbar">
+        <div class="logo">
+            <a href="@Url.Action("Index", "Home")"><img src="/Images/f3-01.png" alt="SSUET Logo"></a>
+        </div>
+        <!-- Search Bar and Hamburger Menu -->
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            <div class="hamburger" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <ul class="nav-links">
+            <li><a href=@Url.Action("News", "Home")>Quad News</a></li>
+            <li><a href="@Url.Action("MySSUET", "Home")">My SSUET</a></li>
+            <li><a href="@Url.Action("NewAlumni", "Home")">New Alumni</a></li>
+            <li><a href="@Url.Action("Events", "Home")">Events</a></li>
+            <li><a href="@Url.Action("AlumniGroup", "Home")">Alumni Groups</a></li>
+            <li><a href="@Url.Action("Engage", "Home")">Engage</a></li>
+        </ul>
+    </div>
+</nav>
+
+
+<!-- Header Image -->
+<div class="header-image">
+    <img src="~/Images/QUADNEWS-01.png" alt="News Header">
+</div>
+
+<!-- News Section -->
+<section class="news-section">
+    <div class="container">
+        <!-- News Item 1 -->
+        <div class="news-item">
+            <img src="~/Images/Raft.png" alt="Wins Robotics Competition">
+            <h3>SSUET's WATERCRAFT Shines at IDEAS 2024</h3>
+            <p>Date: July 15, 2024</p>
+            <p>SSUET is proud to announce the successful participation of our students’ groundbreaking project, R.A.F.T. (Rescue Armor in Flood Tides), at the prestigious IDEAS 2024.</p>
+        </div>
+
+        <!-- News Item 2 -->
+        <div class="news-item">
+            <img src="~/Images/inn.jpg" alt="Alumni Win Innovation Award">
+            <h3>SSUET Wins Brand of the Year Award 2023-24</h3>
+            <p>Date: February 10, 2024</p>
+            <p>SSUET has proudly won the Brand of the Year Award 2023-24 in the ‘Engineering University’ category, reaffirming our commitment to excellence, innovation, and setting new benchmarks.</p>
+        </div>
+
+        <!-- News Item 3 -->
+        <div class="news-item">
+            <img src="~/Images/Awards pic.jpg" alt="MoU with Tech Company">
+            <h3>SSUET Student Wins Prestigious FIDC Asia Pacific Future Emerging Leaders’ Award</h3>
+            <p>Date: March 15, 2024</p>
+            <p>Haseeb Mansuri, a Civil Engineering student at SSUET, has been honored with the FIDC Asia Pacific Future Emerging Leaders’ Award for his remarkable contributions to the consulting engineering industry.</p>
+        </div>
+
+        <!-- News Item 4 -->
+        <div class="news-item">
+            <img src="~/Images/meet.png" alt="Annual Alumni Meet">
+            <h3>Annual Alumni Meet Held with Record Attendance</h3>
+            <p>Date: April 20, 2024</p>
+            <p>The annual SSUET alumni meet saw record attendance, with over 500 alumni gathering to reconnect and share insights.</p>
+        </div>
+
+        <!-- News Item 5 -->
+        <div class="news-item">
+            <img src="~/Images/r2.jpg" alt="Faculty Publishes Research">
+            <h3>SSUET Alumnus Featured Among Top 100 Innovative International Researchers</h3>
+            <p>Date: May 25, 2024</p>
+            <p>Ussama Zaffar, an Electronic Engineering graduate from SSUET (Batch 2011), has been recognized by Italy's national TV as one of the Top 100 Innovative International Researchers for his groundbreaking work in sustainable forest exploration.</p>
+        </div>
+
+        <!-- News Item 6 -->
+        <div class="news-item">
+            <img src="~/Images/ai.jpg" alt="New AI Program">
+            <h3>University Introduces New Undergraduate Program in Artificial Intelligence</h3>
+            <p>Date: June 30, 2024</p>
+            <p>SSUET has introduced a new undergraduate program in Artificial Intelligence to meet the demands of the tech industry.</p>
+        </div>
+
+        <!-- News Item 7 -->
+        <div class="news-item">
+            <img src="~/Images/lab2.jpg" alt="New Laboratory Opens">
+            <h3>New State-of-the-Art Laboratory Opens at SSUET</h3>
+            <p>Date: January 5, 2024</p>
+            <p>SSUET has unveiled a new state-of-the-art laboratory dedicated to cutting-edge research in renewable energy.</p>
+        </div>
+
+        <!-- News Item 8 -->
+        <div class="news-item">
+            <img src="~/Images/dinner (1).png" alt="Alumni Donation Fund">
+            <h3>SSUET Alumni Achievement Dinner Celebrates Excellence</h3>
+            <p>Date: August 20, 2024</p>
+            <p>The SSUET Alumni Association hosted an Achievement Dinner, honoring distinguished alumni, including Prof. Dr. Samreen Hussain, Abdul Qadir, Muhammad Jawad Paracha, and Iftikhar Arif, for their outstanding contributions in their fields.</p>
+        </div>
+
+        <!-- News Item 9 -->
+        <div class="news-item">
+            <img src="~/Images/coach (1).png" alt="Renovations Completed">
+            <h3>SSUET Alumnus Haseem Khan Appointed Coach of Pakistan Hockey Team</h3>
+            <p>Date: September 25, 2024</p>
+            <p>Congratulations to SSUET alumnus Olympian Haseem Khan on being appointed as the Coach of the Pakistan Hockey Team for the Asian Champions Trophy in India.</p>
+        </div>
+
+        <!-- News Item 10 -->
+        <div class="news-item">
+            <img src="~/Images/vc1.png" alt="National Engineering Conference">
+            <h3>SSUET Alumnus Dr. Samreen Hussain Appointed First Female Vice Chancellor of DUET</h3>
+            <p>Date: October 10, 2024</p>
+            <p>SSUET proudly congratulates Dr. Samreen Hussain, our esteemed alumna, on becoming the first-ever female Vice Chancellor of Dawood University of Engineering and Technology (DUET) in Pakistan.</p>
+        </div>
+
+        <!-- News Item 11 -->
+        <div class="news-item">
+            <img src="~/Images/rr.jpg" alt="Sports Complex Inaugurated">
+            <h3>SSUET Faculty Member Invents Robotic Capsule</h3>
+            <p>Date: November 15, 2024</p>
+            <p>Engr. Dr. Muhammad Rehan, Assistant Professor in the Electronics Engineering Department at SSUET, has invented a robotic capsule, marking a proud moment for the university.</p>
+        </div>
+
+        <!-- News Item 12 -->
+        <div class="news-item">
+            <img src="~/Images/ee.png" alt="Alumni Network Expands">
+            <h3>SSUET Alumnus Abdul Mohimeen Represents at Italian University</h3>
+            <p>Date: December 20, 2024</p>
+            <p>Engr. Abdul Mohimeen, Civil Engineering graduate (Batch 2019) of SSUET, has been selected as the representative for Civil & Environmental Engineering in the Guardiani University Student Association at the University of Cassino and Southern Lazio, Italy 🇮🇹.</p>
+        </div>
+    </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-about">
+            <h4>About SSUET Alumni</h4>
+            <p>A platform to connect, collaborate, and celebrate the achievements of Sir Syed University of Engineering and Technology alumni.</p>
+        </div>
+        <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#membership">Membership</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="footer-alumni">
+            <h4>Information for Alumni</h4>
+            <ul>
+                <li><a asp-controller="Account" asp-action="Login">Login/Register</a></li>
+                <li><a href="#eligibility">Eligibility</a></li>
+                <li><a href="#update-details">Update Your Details</a></li>
+                <li><a href="#certificates">Degree Certificates and Ceremonies</a></li>
+            </ul>
+        </div>
+        <div class="footer-contact">
+            <h4>Contact Us</h4>
+            <p>Email: <a href="mailto:alumni@ssuet.edu.pk">alumni@ssuet.edu.pk</a></p>
+            <p>Phone: +92-21-12345678</p>
+            <p>Address: Sir Syed University, Karachi, Pakistan</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 SSUET Alumni. All rights reserved.</p>
+    </div>
+</footer>
+

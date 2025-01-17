@@ -1,0 +1,88 @@
+﻿@model Login.Models.UserTbl
+
+@{
+    ViewData["Title"] = "Register";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="/css/register.css">
+</head>
+<body>
+    <div class="register-container">
+        <div class="header">
+            <img src="/Images/111.png" alt="SSUET Logo" class="logo">
+        </div>
+        <div class="register-box">
+            <h1>Create a New Account</h1>
+            <hr />
+            <form asp-action="Register">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="Name" class="control-label"></label>
+                    <input asp-for="Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Gender" class="control-label"></label>
+                    <input asp-for="Gender" class="form-control" />
+                    <span asp-validation-for="Gender" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Age" class="control-label"></label>
+                    <input asp-for="Age" class="form-control" />
+                    <span asp-validation-for="Age" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="YearOfGraduation" class="control-label"></label>
+                    <input asp-for="YearOfGraduation" class="form-control" />
+                    <span asp-validation-for="YearOfGraduation" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="BatchNumber" class="control-label"></label>
+                    <input asp-for="BatchNumber" class="form-control" />
+                    <span asp-validation-for="BatchNumber" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="LinkedInId" class="control-label"></label>
+                    <input asp-for="LinkedInId" class="form-control" />
+                    <span asp-validation-for="LinkedInId" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Email" class="control-label"></label>
+                    <input asp-for="Email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="RollNum" class="control-label"></label>
+                    <input asp-for="RollNum" class="form-control" />
+                    <span asp-validation-for="RollNum" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Password" class="control-label"></label>
+                    <input asp-for="Password" class="form-control" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Create Account" class="register-button" />
+                </div>
+            </form>
+            <a asp-action="Login" class="back-to-list">Back to Login</a>
+        </div>
+        <footer>
+            <p>SSUET Alumni Online - Register</p>
+        </footer>
+    </div>
+
+</body>
+</html>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

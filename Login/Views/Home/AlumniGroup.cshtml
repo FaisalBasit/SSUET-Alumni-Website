@@ -1,0 +1,258 @@
+﻿@model Login.Models.AlumniGroup
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Alumni Groups";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sintony:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+ 
+</head>
+<body>
+    <!-- Navbar -->
+    <nav id="navbar">
+        <!-- Top Navbar Section -->
+        <div id="top" class="top-navbar">
+            <div class="social-links">
+                <a href="https://www.linkedin.com/school/ssuetofficial/posts/?feedView=all" target="_blank"><img src="/Images/linkedin.png" alt="LinkedIn"></a>
+                <a href="https://twitter.com/SSUET_Official/status/1760228797591208388" target="_blank"><img src="/Images/twitter.png" alt="Twitter"></a>
+                <a href="https://www.facebook.com/ssuetians/" target="_blank"><img src="/Images/facebook.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/sirsyeduniversityofficial/?hl=en" target="_blank"><img src="/Images/instagram.png" alt="Instagram"></a>
+            </div>
+            <div class="top-links">
+                <a href="@Url.Action("Login", "Home")" class="desktop-link">My SSUET Online Log-in</a>
+                <a href="@Url.Action("Login", "Home")" class="mobile-link">Log-in</a>
+                <a href="#">FAQ</a>
+                <a href="https://www.ssuet.edu.pk/">ssuet.edu.pk</a>
+                <a asp-controller="Home" asp-action="Logout"><img src="/Images/logout.png" alt="Log Out"></a>
+            </div>
+        </div>
+
+        <!-- Main Navbar Section -->
+        <div class="main-navbar">
+            <div class="logo">
+                <a href="@Url.Action("Index", "Home")"><img src="/Images/f3-01.png" alt="SSUET Logo"></a>
+            </div>
+            <!-- Search Bar and Hamburger Menu -->
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+                <div class="hamburger" onclick="toggleMenu()">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a href=@Url.Action("News", "Home")>Quad News</a></li>
+                <li><a href="@Url.Action("MySSUET", "Home")">My SSUET</a></li>
+                <li><a href="@Url.Action("NewAlumni", "Home")">New Alumni</a></li>
+                <li><a href="@Url.Action("Events", "Home")">Events</a></li>
+                <li><a href="@Url.Action("AlumniGroup", "Home")">Alumni Groups</a></li>
+                <li><a href="@Url.Action("Engage", "Home")">Engage</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header Image -->
+    <div class="header-image">
+        <img src="/Images/AG-03-03-03.png" alt="Events Header">
+    </div>
+    @* Alumni Group Section *@
+    <section class="alumni-groups-section">
+        <div class="container">
+            <div class="section-header">
+                
+                <p>Join a group to stay connected with your peers!</p>
+            </div>
+            <div class="groups-grid">
+                @* Group Card 1 *@
+                <div class="group-card">
+                    <div class="group-image">
+                        <img src="/Images/G1.png" alt="Group 1" />
+                    </div>
+                    <div class="group-info">
+                        <h3>Alumni Tech Enthusiasts</h3>
+                        <p>A group dedicated to technology enthusiasts. Join us to explore innovations, share insights, and collaborate on projects that shape the future of tech.</p>
+
+                        @if (TempData[$"Message_1001"] != null)
+                        {
+                            <p style="color:red;">@TempData[$"Message_1001"]</p>
+                        }
+                        @if (TempData[$"Success_1001"] != null)
+                        {
+                            <p style="color:green;">@TempData[$"Success_1001"]</p>
+                        }
+
+                        <form asp-action="JoinGroup" method="post">
+                            <input type="hidden" name="groupId" value="1001" /> <!-- Hidden field with Group ID -->
+                            <button type="submit">Join Group</button>
+                        </form>
+                    </div>
+                </div>
+
+                @* Group Card 2 *@
+                <div class="group-card">
+                    <div class="group-image">
+                        <img src="~/Images/G-02.png" alt="Group 2" />
+                    </div>
+                    <div class="group-info">
+                        <h3>Entrepreneurs and Innovators</h3>
+                        <p>Calling all alumni entrepreneurs, startups, and innovators! Share your ventures, collaborate, and inspire the next generation of creators.</p>
+                        @if (TempData[$"Message_1002"] != null)
+                        {
+                            <p style="color:red;">@TempData[$"Message_1002"]</p>
+                        }
+                        @if (TempData[$"Success_1002"] != null)
+                        {
+                            <p style="color:green;">@TempData[$"Success_1002"]</p>
+                        }
+
+                        <form asp-action="JoinGroup" method="post">
+                            <input type="hidden" name="groupId" value="1002" /> <!-- Hidden field with Group ID -->
+                            <button type="submit">Join Group</button>
+                        </form>
+                    </div>
+                </div>
+
+                @* Group Card 3 *@
+                <div class="group-card">
+                    <div class="group-image">
+                        <img src="/Images/G-01.png" alt="Group 3" />
+                    </div>
+                    <div class="group-info">
+                        <h3>Career Connections</h3>
+                        <p>A professional group for alumni to exchange career tips, share opportunities, and provide industry guidance. Let’s achieve success together!</p>
+                        @if (TempData[$"Message_1003"] != null)
+                        {
+                            <p style="color:red;">@TempData[$"Message_1003"]</p>
+                        }
+                        @if (TempData[$"Success_1003"] != null)
+                        {
+                            <p style="color:green;">@TempData[$"Success_1003"]</p>
+                        }
+
+                        <form asp-action="JoinGroup" method="post">
+                            <input type="hidden" name="groupId" value="1003" /> <!-- Hidden field with Group ID -->
+                            <button type="submit">Join Group</button>
+                        </form>
+                    </div>
+                </div>
+
+                @* Group Card 4 *@
+                <div class="group-card">
+                    <div class="group-image">
+                        <img src="/Images/G4-03.png" alt="Group 4" />
+                    </div>
+                    <div class="group-info">
+                        <h3>Alumni Sports and Fitness</h3>
+                        <p>Stay active and connected! Share fitness tips, organize sports events, and celebrate your athletic achievements with fellow alumni.</p>
+                        @if (TempData[$"Message_1004"] != null)
+                        {
+                            <p style="color:red;">@TempData[$"Message_1004"]</p>
+                        }
+                        @if (TempData[$"Success_1004"] != null)
+                        {
+                            <p style="color:green;">@TempData[$"Success_1004"]</p>
+                        }
+
+                        <form asp-action="JoinGroup" method="post">
+                            <input type="hidden" name="groupId" value="1004" /> <!-- Hidden field with Group ID -->
+                            <button type="submit">Join Group</button>
+                        </form>
+                    </div>
+                </div>
+
+                @* Group Card 5 *@
+                <div class="group-card">
+                    <div class="group-image">
+                        <img src="/Images/G5-04.png" alt="Group 5" />
+                    </div>
+                    <div class="group-info">
+                        <h3>Alumni Giving Back</h3>
+                        <p>A group dedicated to philanthropy and community service. Join us to support scholarships, fundraisers, and initiatives that give back to our alma mater.</p>
+                        @if (TempData[$"Message_1005"] != null)
+                        {
+                            <p style="color:red;">@TempData[$"Message_1005"]</p>
+                        }
+                        @if (TempData[$"Success_1005"] != null)
+                        {
+                            <p style="color:green;">@TempData[$"Success_1005"]</p>
+                        }
+
+                        <form asp-action="JoinGroup" method="post">
+                            <input type="hidden" name="groupId" value="1005" /> <!-- Hidden field with Group ID -->
+                            <button type="submit">Join Group</button>
+                        </form>
+                    </div>
+                </div>
+
+                @* Group Card 6 *@
+                <div class="group-card">
+                    <div class="group-image">
+                        <img src="/Images/G6-05.png" alt="Group 6" />
+                    </div>
+                    <div class="group-info">
+                        <h3>Alumni Study Abroad Network</h3>
+                        <p>Connect with alumni who studied abroad or are currently living overseas. Share experiences, tips, and stay connected globally.</p>
+                        @if (TempData[$"Message_1006"] != null)
+                        {
+                            <p style="color:red;">@TempData[$"Message_1006"]</p>
+                        }
+                        @if (TempData[$"Success_1006"] != null)
+                        {
+                            <p style="color:green;">@TempData[$"Success_1006"]</p>
+                        }
+
+
+                        <form asp-action="JoinGroup" method="post">
+                            <input type="hidden" name="groupId" value="1006" /> <!-- Hidden field with Group ID -->
+                            <button type="submit">Join Group</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-about">
+                <h4>About SSUET Alumni</h4>
+                <p>A platform to connect, collaborate, and celebrate the achievements of Sir Syed University of Engineering and Technology alumni.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="@Url.Action("About", "Home")">About Us</a></li>
+                    <li><a href="@Url.Action("Events", "Home")">Events</a></li>
+                    <li><a href="@Url.Action("Membership", "Home")">Membership</a></li>
+                    <li><a href="@Url.Action("Contact", "Home")">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p>Email: <a href="mailto:alumni@ssuet.edu.pk">alumni@ssuet.edu.pk</a></p>
+                <p>Phone: +92-21-12345678</p>
+                <p>Address: SSUET, Karachi, Pakistan</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; @DateTime.Now.Year SSUET Alumni. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/javascript/script.js"></script>
+</body>
+</html>

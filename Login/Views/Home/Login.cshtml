@@ -1,0 +1,65 @@
+﻿@model Login.Models.UserTbl
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="/css/site.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="header">
+            <img src="/Images/111.png" alt="SSUET Logo" class="logo">
+        </div>
+        <div class="login-box">
+            <h1>Log in to My SSUET Online</h1>
+            <p>Logging-in adds a cookie to your computer.</p>
+
+            @if (ViewBag.Message != null)
+            {
+                <p style="color:red;">@ViewBag.Message</p>
+            }
+            @if (TempData["Success"] != null)
+            {
+                <p style="color:green;">@TempData["Success"]</p>
+                
+            }
+
+            <form method="post" asp-action="Login">
+                <label asp-for="RollNum">Roll Number:</label>
+                <input asp-for="RollNum" type="text" class="form-control" />
+                <span asp-validation-for="RollNum" class="text-danger"></span>
+
+                <label asp-for="Password">Password:</label>
+                <input asp-for="Password" type="password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+
+                <div class="remember-me">
+                    <input type="checkbox" id="remember" name="remember">
+                    <label for="remember">Remember my details</label>
+                </div>
+
+                <button  type="submit" class="login-button">Log in</button>
+            </form>
+
+            <a asp-controller="Home" asp-action="Register" class="register">Register for an account</a>
+            <a href="#" class="forgot-password">Forgot your password or user name?</a>
+        </div>
+        <footer>
+            <p>These pages are part of SSUET Alumni Online.</p>
+            <a href="#">Cookie info</a> |
+            <a href="#">Privacy notice</a> |
+            <a href="#">Terms and conditions</a>
+        </footer>
+    </div>
+
+
+</body>
+</html>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }

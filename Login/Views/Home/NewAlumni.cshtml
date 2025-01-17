@@ -1,0 +1,153 @@
+﻿@page
+@model Login.Views.Home.NewAlumniModel
+@{
+    
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSUET Alumni</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sintony:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    
+</head>
+<body>
+    <nav id="navbar">
+        <!-- Top Navbar Section -->
+        <div id="top" class="top-navbar">
+            <div class="social-links">
+                <a href="https://www.linkedin.com/school/ssuetofficial/posts/?feedView=all" target="_blank"><img src="/Images/linkedin.png" alt="LinkedIn"></a>
+                <a href="https://twitter.com/SSUET_Official/status/1760228797591208388" target="_blank"><img src="/Images/twitter.png" alt="Twitter"></a>
+                <a href="https://www.facebook.com/ssuetians/" target="_blank"><img src="/Images/facebook.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/sirsyeduniversityofficial/?hl=en" target="_blank"><img src="/Images/instagram.png" alt="Instagram"></a>
+            </div>
+            <div class="top-links">
+                <a href="@Url.Action("Login", "Home")" class="desktop-link">My SSUET Online Log-in</a>
+                <a href="@Url.Action("Login", "Home")" class="mobile-link">Log-in</a>
+                <a href="#">FAQ</a>
+                <a href="https://www.ssuet.edu.pk/">ssuet.edu.pk</a>
+                <a asp-controller="Home" asp-action="Logout"><img src="/Images/logout.png" alt="Log Out"></a>
+            </div>
+        </div>
+
+        <!-- Main Navbar Section -->
+        <div class="main-navbar">
+            <div class="logo">
+                <a href="@Url.Action("Index", "Home")"><img src="/Images/f3-01.png" alt="SSUET Logo"></a>
+            </div>
+            <!-- Search Bar and Hamburger Menu -->
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+                <div class="hamburger" onclick="toggleMenu()">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a href=@Url.Action("News", "Home")>Quad News</a></li>
+                <li><a href="@Url.Action("MySSUET", "Home")">My SSUET</a></li>
+                <li><a href="@Url.Action("NewAlumni", "Home")">New Alumni</a></li>
+                <li><a href="@Url.Action("Events", "Home")">Events</a></li>
+                <li><a href="@Url.Action("AlumniGroup", "Home")">Alumni Groups</a></li>
+                <li><a href="@Url.Action("Engage", "Home")">Engage</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    
+        <div class="header-image">
+            <img src="/Images/newww-05-05.png" alt="News Header">
+        </div>
+        
+        <section class="congratulations">
+        <h class="heading-new"><b>CONGRATULATIONS!</b></h>
+            <p>
+                You may have left the spires behind but your connection with Oxford is lifelong! 
+                This microsite is your one-stop shop for resources and information which you can 
+                continue to access wherever life takes you.
+            </p>
+        </section>
+
+    <section class="icons-container-new">
+        <div class="icon-card-new ">
+                <img src="https://www.alumni.ox.ac.uk/sites/default/files/styles/card_banner_image/public/alumni-icon-colour-connect-with-your-community_0.png?itok=ZSZac9HG" alt="Community Icon">
+                <p><b>Connect with your community</b></p>
+            </div>
+        <div class="icon-card-new ">
+                <img src="https://www.alumni.ox.ac.uk/sites/default/files/styles/card_banner_image/public/alumni-icon-colour-career-support.png?itok=yv2Pso66" alt="Careers Icon">
+                <p><b>Continued careers support</b></p>
+            </div>
+        <div class="icon-card-new ">
+                <img src="https://www.alumni.ox.ac.uk/sites/default/files/styles/card_banner_image/public/alumni-icon-colour-grow-your-business-idea.png?itok=OqgZ0mLJ" alt="Business Icon">
+                <p><b>Grow your business idea</b></p>
+            </div>
+        <div class="icon-card-new ">
+                <img src="https://www.alumni.ox.ac.uk/sites/default/files/styles/card_banner_image/public/alumni-icon-colour-gift-your-time-and-knowledge.png?itok=Icp7aD7w" alt="Knowledge Icon">
+                <p><b>Gift your time and knowledge</b></p>
+            </div>
+        <div class="icon-card-new ">
+                <img src="https://www.alumni.ox.ac.uk/sites/default/files/styles/card_banner_image/public/alumni-icon-colour-continue-to-learn.png?itok=rqVmkm5Y" alt="Learn Icon">
+                <p><b>Continue to learn</b></p>
+            </div>
+        <div class="icon-card-new ">
+                <img src="https://www.alumni.ox.ac.uk/sites/default/files/styles/card_banner_image/public/alumni-icon-colour-wellbeing-resources.png?itok=0MmY--1t" alt="Wellbeing Icon">
+                <p><b>Wellbeing resources</b></p>
+            </div>
+        <div class="icon-card-new ">
+                <img src="https://www.alumni.ox.ac.uk/sites/default/files/styles/card_banner_image/public/alumni-icon-colour-events.png?itok=BZoNSVZY" alt="Events Icon">
+                <p><b>Events</b></p>
+            </div>
+        <div class="icon-card-new ">
+                <img src="https://www.alumni.ox.ac.uk/sites/default/files/styles/card_banner_image/public/alumni-icon-colour-alumni-discounts.png?itok=BkFkxfzn" alt="Discounts Icon">
+                <p><b>Alumni discounts</b></p>
+            </div>
+        </section>
+    
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-about">
+                <h4>About SSUET Alumni</h4>
+                <p>A platform to connect, collaborate, and celebrate the achievements of Sir Syed University of Engineering and Technology alumni.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#membership">Membership</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-alumni">
+                <h4>Information for Alumni</h4>
+                <ul>
+                    <li><a href="#login">Login/Register</a></li>
+                    <li><a href="#eligibility">Eligibility</a></li>
+                    <li><a href="#update-details">Update Your Details</a></li>
+                    <li><a href="#certificates">Degree Certificates and Ceremonies</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p>Email: <a href="mailto:alumni@ssuet.edu.pk">alumni@ssuet.edu.pk</a></p>
+                <p>Phone: +92-21-12345678</p>
+                <p>Address: Sir Syed University, Karachi, Pakistan</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 SSUET Alumni. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="~/Scripts/script.js"></script>
+</body>
+</html>

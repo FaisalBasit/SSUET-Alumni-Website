@@ -1,0 +1,77 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Login
+build_property.RootNamespace = Login
+build_property.ProjectDir = D:\Sir Syed University\5th Semester\Web Eng lab\Web Engr Project\Login\Login\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Sir Syed University\5th Semester\Web Eng lab\Web Engr Project\Login\Login
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Sir Syed University/5th Semester/Web Eng lab/Web Engr Project/Login/Login/Views/Home/AlumniGroup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBbHVtbmlHcm91cC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sir Syed University/5th Semester/Web Eng lab/Web Engr Project/Login/Login/Views/Home/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sir Syed University/5th Semester/Web Eng lab/Web Engr Project/Login/Login/Views/Home/Engage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFbmdhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sir Syed University/5th Semester/Web Eng lab/Web Engr Project/Login/Login/Views/Home/Events.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFdmVudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sir Syed University/5th Semester/Web Eng lab/Web Engr Project/Login/Login/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sir Syed University/5th Semester/Web Eng lab/Web Engr Project/Login/Login/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sir Syed University/5th Semester/Web Eng lab/Web Engr Project/Login/Login/Views/Home/MySSUET.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNeVNTVUVULmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sir Syed University/5th Semester/Web Eng lab/Web Engr Project/Login/Login/Views/Home/NewAlumni.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOZXdBbHVtbmkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sir Syed University/5th Semester/Web Eng lab/Web Engr Project/Login/Login/Views/Home/News.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOZXdzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sir Syed University/5th Semester/Web Eng lab/Web Engr Project/Login/Login/Views/Home/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sir Syed University/5th Semester/Web Eng lab/Web Engr Project/Login/Login/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sir Syed University/5th Semester/Web Eng lab/Web Engr Project/Login/Login/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sir Syed University/5th Semester/Web Eng lab/Web Engr Project/Login/Login/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sir Syed University/5th Semester/Web Eng lab/Web Engr Project/Login/Login/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sir Syed University/5th Semester/Web Eng lab/Web Engr Project/Login/Login/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ry12vzjnvz
